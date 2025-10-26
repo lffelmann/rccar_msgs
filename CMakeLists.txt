@@ -19,6 +19,7 @@ find_package(builtin_interfaces REQUIRED)
 set(msg_files
   "msg/TwistStampedTimestamp.msg"
   "msg/TwistStampedTwistTimestamp.msg"
+  "msg/TwistStampedTwistTimestampTimestamp.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
