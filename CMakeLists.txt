@@ -20,7 +20,7 @@ set(msg_files
   "msg/TwistStampedTimestamp.msg"
   "msg/TwistStampedTwistTimestamp.msg"
   "msg/TwistStampedTwistTimestampTimestamp.msg"
-  "msg/Rccar1Corr2Time.msg"
+  "msg/RccarCorr1Time2.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
